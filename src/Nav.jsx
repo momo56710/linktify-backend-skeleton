@@ -61,7 +61,7 @@ export default function Simple() {
                         <Box><Image src={linktifyLogo} height={100} /></Box>
                         <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }}>
                             {Links.map((link) => (
-                                <Link all={'unset'} href={`/${link}`}>{link}</Link>
+                                <Link href={`/${link}`}>{link}</Link>
 
                             ))}
                         </HStack>
@@ -96,7 +96,7 @@ export default function Simple() {
                     <Box pb={4} display={{ md: 'none' }}>
                         <Stack as={'nav'} spacing={4}>
                             {Links.map((link) => (
-                                <NavLink key={link}>{link}</NavLink>
+                                <Link href={`/${link}`}>{link}</Link>
                             ))}
                         </Stack>
                     </Box>
