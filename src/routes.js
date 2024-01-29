@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Home from './Home';
-import Investors from './Investors';
-import Startups from './Startups';
-import Community from './Community';
+import Home from './pages/Home';
+import Investors from './pages/Investors';
+import Startups from './pages/Startups';
+import Community from './pages/Community';
 
 export default function RouteRoot() {
   return (

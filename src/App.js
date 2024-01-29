@@ -10,9 +10,7 @@ import {
   theme,
 } from '@chakra-ui/react';
 import { BrowserRouter } from 'react-router-dom';
-import { ColorModeSwitcher } from './ColorModeSwitcher';
 import RouteRoot from './routes';
-import { Logo } from './Logo';
 import Nav from './Nav';
 function App() {
   return (
